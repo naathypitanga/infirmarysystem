@@ -1,0 +1,91 @@
+:root {
+    --primaryColor: #6ea8fe;
+    --bgColor: #cfe2ff;
+    --lightColor: #EDF2F4;
+}
+
+html,
+body {
+  background: url("../img/ambulancia.png") no-repeat fixed center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--bgColor);
+}
+
+img {
+    width: 60%;
+}
+
+.form-signin {
+    min-width: 320px;
+    max-width: 320px;
+    position: static;
+    padding: 25px;
+    background-color: var(--lightColor);
+    border-radius: 15px;
+    z-index: 100;
+    left: 40%;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.btn-blue {
+    background-image: linear-gradient(to left, #084298 , var(--primaryColor));
+    border: none;
+    color: var(--lightColor);
+}
+
+.btn-blue:hover {
+    background-image: linear-gradient(to right, #084298 , var(--primaryColor));
+    color: var(--lightColor);
+    border: none;
+}
+
+.background{
+    width: 143%;
+    height: 143%;
+    position: fixed;
+    margin:-170px;
+}
+
+.alert-exp {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    width: 302px;
+}
+
+.password-reveal {
+    margin-top: -36px; 
+    margin-left: 80px; 
+    cursor: pointer; 
+    position: fixed;
+}
+
+@media (max-width: 768px) {
+    img.background {
+        width: 200%;
+        height: 200%;
+        position: fixed;
+        margin:-170px;
+    }
+
+    .alert-exp {
+        display: none;
+    }
+}

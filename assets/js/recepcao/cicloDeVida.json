@@ -1,0 +1,32 @@
+[
+    {
+        "desc": "Recém-Nascido",
+        "min": 0,
+        "max": 1
+    },
+    {
+        "desc": "Infante",
+        "min": 2,
+        "max": 6
+    },
+    {
+        "desc": "Criança",
+        "min": 7,
+        "max": 11
+    },
+    {
+        "desc": "Adolescente",
+        "min": 12,
+        "max": 17
+    },
+    {
+        "desc": "Adulto",
+        "min": 18,
+        "max": 59
+    },
+    {
+        "desc": "Idoso",
+        "min": 60,
+        "max": 15000
+    }
+]

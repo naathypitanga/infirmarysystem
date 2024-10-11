@@ -1,0 +1,167 @@
+/* hdr = header */
+
+.hdr {
+  background-color: var(--primary-color);
+  height: 3.5rem;
+  width: 100vw;
+  position: fixed;
+  z-index:110;
+}
+
+.hdr-mobile {
+  position: relative;
+  height: 100%;
+}
+
+/* Ícones do header */
+
+.hdr-box {
+  height: 3.5rem;
+  width: 2.5rem;
+}
+.hdr-icon-bell {
+  width: 1.5rem;
+}
+.hdr-icon-user {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.hdr-icon-menu {
+  width: 2.5rem;
+}
+.hdr-icon-logo {
+  height: 3.5rem;
+}
+
+/* Dropdown usuário */
+
+.ul-footer {
+  z-index: 100;
+  position: absolute;
+}
+.hdr-dropdown-user {
+  border-radius: 4rem 0px 4rem 4rem;
+  text-align: center;
+}
+.hdr-dropdown-divider {
+  width: 12rem;
+  color: var(--primary-color);
+  margin: auto;
+}
+.hdr-dropdown-item {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin: 0;
+  line-height: 3rem;
+}
+.hdr-dropdown-item:hover {
+  background-color: var(--overlay-color);
+  color: white;
+}
+.hdr-dropdown-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 0;
+  line-height: 3rem;
+}
+.dropdown-item-radius {
+  border-radius: 0rem 0px 5rem 5rem;
+}
+
+/* Dropdown de notificações */
+
+.bradius-dropdown-notification {
+  border-radius: 2.4rem 0rem 0rem 2.4rem;
+  text-align: center;
+}
+.notification-box {
+  background-color: var(--overlay-color);
+  border-radius: 1rem;
+}
+.header-alert {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+}
+.header-text {
+  font-size: 2rem;
+}
+.options-icon {
+  height: 1rem;
+}
+.box-content {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.footer-time {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+/* Fazer o badge de notificações desaparecer */
+.hdr-notification-badge {
+  visibility: hidden;
+}
+
+/* Scroll do dropdown de notificações */
+
+.scroll-test {
+  height: auto;
+  max-height: 80vh;
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--overlay-color);
+  border-radius: 5rem;
+  height: 1.5rem;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 5rem;
+  width: 0.5rem;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
+/* Menu mobile */
+
+.menu-m {
+  width: 17rem;
+  margin-left: -9px;
+  position: fixed !important;
+  background-color: white !important;
+  height: 100%;
+}
+
+.menu-mbuttons {
+  width: 1.5rem;
+  margin: 0.8rem;
+}
+.menu-mlinktext {
+  font-weight: 700;
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  padding: 0.8rem 0 0.8rem 1.2rem;
+}
+
+.overflowHidden {
+  overflow: hidden;
+  touch-action: none;
+  -ms-touch-action: none;
+}

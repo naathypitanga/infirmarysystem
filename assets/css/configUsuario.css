@@ -1,0 +1,48 @@
+.user {
+  width: 125px;
+  height: 125px;
+}
+
+.btn_width {
+  width: 5rem;
+}
+
+.btn_width_senha {
+  width: 7rem;
+}
+
+.input_file {
+  display: none;
+}
+
+.height {
+  height: 0.9rem;
+}
+
+.form_border {
+  border: solid #ced4da 1px;
+}
+@media screen and (max-width: 768px) {
+  .botao_mobile {
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    justify-content: center !important;
+  }
+  
+  .margem_mobile {
+    margin-right: 3rem!important;
+  }
+
+  .wrapper_mobile {
+    flex-wrap: wrap;
+    display: inline-block;
+  }
+
+  .justify-content-end {
+    justify-content: none !important;
+  }
+
+  .justify-content-start {
+    justify-content: center !important;
+  }
+}

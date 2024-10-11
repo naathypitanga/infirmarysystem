@@ -1,0 +1,19 @@
+/* Main */
+
+.sidebar_prioridade {
+  z-index: 120;
+}
+.icone_tamanho {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.menu_dashboard--options{
+  width: 3.4rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+.botao_sombra {
+  border-radius: 20px;
+  background: linear-gradient(145deg, #aad3ff, #8fb1e3);
+  box-shadow: 5px 5px 5px #8aabdb, -5px -5px 5px #b4dfff;
+}

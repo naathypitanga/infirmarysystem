@@ -1,0 +1,76 @@
+{
+    "sistolica": [
+        {
+            "desc": "Baixa",
+            "min": 0,
+            "max": 104.99
+        },
+        {
+            "desc": "Ótima",
+            "min": 105,
+            "max": 119.99
+        },
+        {
+            "desc": "Normal",
+            "min": 120,
+            "max": 129.99
+        },
+        {
+            "desc": "Acima do Normal",
+            "min": 130,
+            "max": 139.99
+        },
+        {
+            "desc": "Hipertensão de Grau 1",
+            "min": 140,
+            "max": 159.99
+        },
+        {
+            "desc": "Hipertensão de Grau 2",
+            "min": 160,
+            "max": 179.99
+        },
+        {
+            "desc": "Hipertensão de Grau 3",
+            "min": 180,
+            "max": 999
+        }        
+    ],
+    "diastolica": [
+        {
+            "desc": "Baixa",
+            "min": 0,
+            "max": 59.99
+        },
+        {
+            "desc": "Ótima",
+            "min": 60,
+            "max": 79.99
+        },
+        {
+            "desc": "Normal",
+            "min": 80,
+            "max": 84.99
+        },
+        {
+            "desc": "Acima do Normal",
+            "min": 85,
+            "max": 89.99
+        },
+        {
+            "desc": "Hipertensão de Grau 1",
+            "min": 90,
+            "max": 99.99
+        },
+        {
+            "desc": "Hipertensão de Grau 2",
+            "min": 100,
+            "max": 109.99
+        },
+        {
+            "desc": "Hipertensão de Grau 3",
+            "min": 110,
+            "max": 999
+        }        
+    ]
+}

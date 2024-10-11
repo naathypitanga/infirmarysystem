@@ -1,0 +1,228 @@
+/* Main */
+
+.verde {
+  background-color: #42ff00;
+  border-radius: 100%;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: solid rgba(0, 0, 0, 0.23) 1px;
+  box-shadow: 3.5px 5px 5px var(--shadow-effect);
+  margin: auto;
+}
+
+.vermelho {
+  background-color: #ff0000;
+  border-radius: 100%;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: solid rgba(0, 0, 0, 0.23) 1px;
+  box-shadow: 3.5px 5px 5px var(--shadow-effect);
+  margin: auto;
+}
+
+.status_fix {
+  position: relative;
+  height: 0;
+  width: 0;
+
+  color: transparent;
+  /* Desabilitar seleção de texto em todos os navegadores */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.botao_acao {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem !important;
+  transition: 0.9ms;
+  text-decoration: none;
+}
+
+.botao_collapse--collapsible {
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+  padding: 1.125rem;
+  font-weight: 500;
+  text-align: left;
+  outline: none;
+  font-size: 1.25rem;
+}
+
+.botao_collapse--collapsible:after {
+  content: url(../icones/show-more-white.svg);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.botao_collapse--active:after {
+  content: url(../icones/show-less-white.svg);
+}
+
+.botao_collapse--content {
+  padding: 0 1.125rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: var(--secondary-color);
+}
+
+.botao_collapse--content p{
+  padding-top: 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+
+.botao_collapse--content ul li{
+  text-align: left;
+  font-size: 1rem;
+  list-style-type: disc;
+}
+
+.texto_permissoes {
+  padding-top: 1rem;
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+/* Configuração DataTables */
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
+  /*top: 8px;
+  left: 4px;
+  height: 16px;
+  width: 16px;*/
+  display: block;
+  position: absolute;
+  color: none;
+  border-radius: none;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  box-sizing: none;
+  background-color: #0000;
+  display: block;
+  position: absolute;
+  content: url(../icones/show-more.svg);
+
+  left: 0.8rem;
+}
+
+table.dataTable.dtr-inline.collapsed
+  > tbody
+  > tr.parent
+  > td:first-child:before,
+table.dataTable.dtr-inline.collapsed
+  > tbody
+  > tr.parent
+  > th:first-child:before {
+  /*top: 8px;
+  left: 4px;
+  height: 16px;
+  width: 16px;*/
+  display: block;
+  position: absolute;
+  color: none;
+  border-radius: none;
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  box-sizing: none;
+  background-color: #0000;
+  display: block;
+  position: absolute;
+  content: url(../icones/show-less.svg);
+
+  left: 0.8rem;
+}
+
+.display {
+  background-color: white;
+  color: var(--text-color);
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+  width: 100%;
+}
+
+.cell-border thead tr th {
+  border: 1px solid var(--secondary-color);
+  text-align: center;
+}
+
+.cell-border tbody tr td {
+  border: 1px solid var(--secondary-color);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.next {
+  content: url(../icones/avançar.svg);
+  font-size: 0%;
+  padding: 0 0 0 0;
+  height: 1rem;
+  margin-left: 0.8rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+  content: url(../icones/retroceder.svg);
+  font-size: 0%;
+  padding: 0 0 0 0;
+  height: 1rem;
+  margin-right: 0.8rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  border: none !important;
+  margin-top: 1.5rem;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  color: white !important;
+  text-decoration: underline !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: 3.5px 5px 5px var(--shadow-effect) !important;
+}
+
+.dataTables_busca {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: white !important;
+  font-size: 1.2rem;
+  text-shadow: 3.5px 5px 5px var(--shadow-effect) !important;
+}
+
+.dataTables_filter input {
+  width: 15.625rem !important;
+  height: 2rem !important;
+  margin-bottom: 2rem !important;
+  color: var(--text-color) !important;
+  background-color: white !important;
+  border: 1px solid #aaa !important;
+  border-radius: 5px !important;
+  box-shadow: 3.5px 5px 5px var(--shadow-effect) !important;
+}
+
+@media screen and (max-width: 768px) {
+  .botao_mobile {
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    justify-content: center !important;
+  }
+  
+  .justify-content-start {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .botao_desktop {
+    justify-content: end;
+  }
+}
