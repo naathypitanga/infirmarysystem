@@ -4,4 +4,4 @@ Fully functional system for an infirmary of a hospital, in this project I was in
 
 # Sistema de Enfermagem (PT-BR)
 
-Sistema totalmente funcional de enfermagem, nesse projeto eu estava encarregada de criar bibliotecas de código para reutilização do mesmo, organização do sistema e a estrutura das pastas, a criação do UI/UX do sistema, documentação do sistema e a compreensão prática do código, outras seções focadas no back-end, como links dentro dos documentos e conexões para o banco de dados foram feitas por outros colaboradores.
+Sistema totalmente funcional de enfermagem de um hospital, nesse projeto eu estava encarregada de criar bibliotecas de código para reutilização do mesmo, organização do sistema e a estrutura das pastas, a criação do UI/UX do sistema, documentação do sistema e a compreensão prática do código, outras seções focadas no back-end, como links dentro dos documentos e conexões para o banco de dados foram feitas por outros colaboradores.
